@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rtl-burn"
+version = "0.1.0"
+description = "Burn Persian, Arabic, Urdu and Hebrew subtitles into video with ffmpeg, without broken punctuation or reordered words."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Mohammad Hadi Javidi" }]
+requires-python = ">=3.9"
+keywords = ["ffmpeg", "subtitles", "rtl", "persian", "farsi", "arabic", "urdu", "hebrew", "libass", "srt", "ass", "bidi"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Multimedia :: Video",
+  "Natural Language :: Persian",
+  "Natural Language :: Arabic",
+  "Natural Language :: Hebrew",
+  "Environment :: Console",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+rtl-burn = "rtl_burn.cli:main"
+
+[tool.setuptools]
+packages = ["rtl_burn"]

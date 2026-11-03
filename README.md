@@ -22,7 +22,7 @@ ffmpeg's `subtitles` filter uses libass, which lays out every line left-to-right
 
 ### Install
 
-Requires Python 3.9+ and ffmpeg built with libass (the default in most builds).
+Requires Python 3.10+ and ffmpeg built with libass (the default in most builds).
 
 ```bash
 pip install git+https://github.com/mohammadhadijavidi/rtl-burn

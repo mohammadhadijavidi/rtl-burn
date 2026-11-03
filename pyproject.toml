@@ -9,7 +9,7 @@ description = "Burn Persian, Arabic, Urdu and Hebrew subtitles into video with f
 readme = "README.md"
 license = { text = "MIT" }
 authors = [{ name = "Mohammad Hadi Javidi" }]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 keywords = ["ffmpeg", "subtitles", "rtl", "persian", "farsi", "arabic", "urdu", "hebrew", "libass", "srt", "ass", "bidi"]
 classifiers = [
   "Programming Language :: Python :: 3",
